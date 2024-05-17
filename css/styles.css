@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1b1a27;
+  color: #f8f8ff;
+}
+
+h1 {
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-top: -15px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: #f8f8ff;
+}
+
+.shine {
+  -webkit-mask-image: linear-gradient(
+    -75deg,
+    rgba(0, 0, 0, 0.6) 30%,
+    #000 50%,
+    rgba(0, 0, 0, 0.6) 70%
+  );
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
