@@ -71,24 +71,28 @@ a {
 	display: flex;
 }
 
+.cardContainer {
+	display: flex;
+}
+
 .card {
 	max-width: 380px;
 }
 
-.card-content {
+.cardContent {
 	padding: 24px;
 }
 
-.card-title {
+.cardTitle {
 	font-size: 24px;
 	margin-bottom: 8px;
 }
 
-.card-text {
+.cardText {
 	font-size: 16px;
 }
 
-.card-button button {
+.cardButton button {
 	display: inline-block;
 	cursor: pointer;
 	font-size: 16px;
@@ -100,8 +104,8 @@ a {
 	transition: background-color 0.3s;
 }
 
-.card-button button:hover,
-.card-button button:focus {
+.cardButton button:hover,
+.cardButton button:focus {
 	background-color: #ffffff;
 	color: #000000;
 }
@@ -152,7 +156,7 @@ a {
 	h1 {
 		font-size: 50px;
 	}
-	.card-container {
+	.cardContainer {
 		flex-direction: column;
 	}
 }
