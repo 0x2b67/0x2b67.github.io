@@ -16,7 +16,7 @@ h1 {
 p {
 	font-size: 21px;
 	color: #c7c8cb;
-  line-height: 1.7;
+	line-height: 1.7;
 }
 
 a {
@@ -30,7 +30,7 @@ a {
 }
 
 .wip {
-  cursor: not-allowed;
+	cursor: not-allowed;
 }
 
 .subtitle:hover {
@@ -63,16 +63,54 @@ a {
 
 
 .scaleEffect {
-  transition: transform 0.4s ease-in-out;
-  transform-origin: center;
+	transition: transform 0.4s ease-in-out;
+	transform-origin: center;
 }
 
 .scaleEffect:hover {
-  transform: scale(0.5);
+	transform: scale(0.5);
 }
 
+.card-container {
+	display: flex;
+}
 
- /* Credits to https://animista.net/ for the animations */
+.card {
+	max-width: 380px;
+}
+
+.card-content {
+	padding: 24px;
+}
+
+.card-title {
+	font-size: 24px;
+	margin-bottom: 8px;
+}
+
+.card-text {
+	font-size: 16px;
+}
+
+.card-button button {
+	display: inline-block;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 12px 24px;
+	border-radius: 8px;
+	background-color: #000000;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+	transition: background-color 0.3s;
+}
+
+.card-button button:hover,
+.card-button button:focus {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+/* Credits to https://animista.net/ for the animations */
 
 @-webkit-keyframes shiningEffect {
 	from {
