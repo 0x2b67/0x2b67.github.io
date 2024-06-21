@@ -71,6 +71,8 @@ a {
 }
 
 
+ /* Credits to https://animista.net/ for the animations */
+
 @-webkit-keyframes shiningEffect {
 	from {
 		-webkit-mask-position: 150%;
