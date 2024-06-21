@@ -67,10 +67,6 @@ a {
 	transform: scale(0.5);
 }
 
-.card-container {
-	display: flex;
-}
-
 .cardContainer {
 	display: flex;
 }
