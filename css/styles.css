@@ -101,7 +101,7 @@ a {
 	background-color: #000000;
 	border: 1px solid #ffffff;
 	color: #ffffff;
-	transition: background-color 0.3s;
+	transition: background-color 0.4s;
 }
 
 .cardButton button:hover,
